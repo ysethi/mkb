@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { RegisterComponent } from './login/register/register.component';
 import { FormComponent } from './form/form.component';
 import { ViewComponent } from './view/view.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ViewComponent } from './view/view.component';
     ContactComponent,
     RegisterComponent,
     FormComponent,
-    ViewComponent
+    ViewComponent,
+    BootstrapComponent
   ],
   imports: [
     BrowserModule,
