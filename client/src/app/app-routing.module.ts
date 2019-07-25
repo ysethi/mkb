@@ -4,21 +4,25 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { FormComponent } from './form/form.component';
+
 import { ViewComponent } from './view/view.component';
 import { ServicesComponent } from './services/services.component';
 import { WorksComponent } from './works/works.component';
+import { VenuesComponent } from './venues/venues.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
 const routes: Routes = [
   {path:'about', component:AboutComponent},
   {path:'',component:HomeComponent},
   {path:'contact', component:ContactComponent},
-  {path:'form',component:FormComponent},
+  {path:'signup',component:SignupComponent},
+  {path:'',component:HomeComponent},
   {path:'services',component:ServicesComponent},
   {path:'view',component:ViewComponent},
-  {path:'work',component:WorksComponent},
-  {path:'login', component:LoginComponent}
-
+  {path:'works',component:WorksComponent},
+  {path:'venues',component:VenuesComponent},
+  {path:'login',component:LoginComponent}
 
 ];
 

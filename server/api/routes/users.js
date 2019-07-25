@@ -92,4 +92,26 @@ router.get('/delete/:id',(req,res)=>{
         }
     })
 })
+router.post('/addRegister',function(req,res){
+    const city=req.body.city
+    const email=req.body.email
+    const name=req.body.name
+    const password=req.body.password
+    const address=req.body.address
+    new UserRegister({
+        address:address,
+        email:email,
+        name:name,
+        city:city,
+        password:password
+    }).save(function(err,data){
+        if(err){
+            console.log(err)
+        }
+        else{
+            console.log(data)
+            res.json(data)
+        }
+    })
+})
 module.exports = router;
