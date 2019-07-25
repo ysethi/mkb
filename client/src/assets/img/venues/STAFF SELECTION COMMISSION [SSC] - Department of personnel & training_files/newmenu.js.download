@@ -1,0 +1,14 @@
+document.write('<div>'+
+  '<ul class="topnav" id="myTopnav">'+
+    '<li><a href="../Site/index.html">होम</a></li>' +
+      '<li><a href="../Site/RdDesk.html">उ. क्षे. निदे. के डेस्क से </a></li>'+
+      '<li><a href="../Site/aboutus.html">परिचय </a></li>'+
+      '<li><a href="../Site/photogallery.html">झलकियां</a></li>'+
+      '<li><a href="../Site/Notices.html">नोटिस</a></li>'+
+    '<li><a href="../Site/ContactUs.html">सम्पर्क करें</a></li>'+
+  
+  '<li class="icon">'+
+'<a href="javascript:void(0);" style="font-size:15px;" onClick="myFunction()">☰</a>'+
+'</li>'+
+' </ul>'+
+'</div>')

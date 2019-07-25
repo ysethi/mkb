@@ -1,0 +1,24 @@
+document.write('<div class="sideBar2">'+
+  '   <ul class="categories">'+
+    '  <li><a href="../Site/RTIAct2005.html">RTI Information</a></li>'+
+      ' <li><a href="../Site/DuplicateAdmitCard.html">Download Admit Card</a></li>'+
+      ' <li><a href="https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/calender2019_25012019.pdf" target="_blank">Exam Notice</a></li>'+
+      '  <li><a href="https://ssc.nic.in/Portal/Results" target="_blank">Results SSC.NIC.IN</a></li>'+
+      ' <li><a href="../Site/Resultsscnr.html">Results SSCNR</a></li>'+
+    ' <li><a href="../Site/filluptheform.html">How To Fill Up The Form</a></li>'+
+  
+  '                <li><a href="../Site/NominationStatus.html">Nomination Status</a></li>'+
+			   ' <li><a href="../Site/RejectionList.html">Rejection List of Selection Post</a></li>'+
+'     <li><a href="../Site/TenderNotice.html">Tender Notice</a></li>'+
+'  <li><a href="../Site/CommonScreeningTest.html">Common Screening Test</a></li>'+
+'  <li><a href="../Site/OtherRNetwork.html">Other Regional Network</a></li>' +
+'<li><a href="../Site/RelatedWebsites.html">Useful Link</a></li>' +
+'  <li><a href="../Downloads/dbar_list_new_30713.pdf" target="_blank">Debar List</a></li>'+
+'    <li><a href="https://rtionline.gov.in/request/request.php" target="_blank">Filing Online RTI</a></li>'+
+'  </ul>'+
+//' <div class="gove-logo">'+
+//' <img src="../images/gove-logo.png" width="177" height="68" alt="gove-logo" />'+
+//' <br /><br />'+
+//' <img src="../images/swatch_bharat.png" width="177" height="80"  alt="swatch_bharat"/>'+
+//'</div>'+
+' </div>')

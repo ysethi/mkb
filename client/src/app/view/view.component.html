@@ -1,0 +1,21 @@
+<div class="container">
+
+        <div class="row">
+            <div class="col-md-3" *ngFor="let obj of arr">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{obj.imageLink}}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{obj.name}}</h5>
+                  <p class="card-text">{{obj.city}}</p>
+                  <a href="#" class="btn btn-primary">{{obj.address}}</a>
+                </div>
+      
+                <button type="submit"
+    [routerLink]="['/update',obj._id]">Update</button>
+    <button type="submit"
+    (click)="delData(obj._id)">Delete</button>
+    </div>
+    </div>
+    </div>
+    
+    </div>

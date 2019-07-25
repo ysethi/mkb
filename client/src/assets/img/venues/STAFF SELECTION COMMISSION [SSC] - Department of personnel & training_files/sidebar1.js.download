@@ -1,0 +1,24 @@
+document.write('<div class="sideBar1">'+
+  ' <ul class="categories">'+
+    '<li><a href="../Site/RTIAct2005.html">आरटीआई सूचना</a></li>'+
+      ' <li><a href="../Site/DuplicateAdmitCard.html">प्रवेश पत्र डाउनलोड</a></li>'+
+      ' <li><a href="https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/calender2019_25012019.pdf" target="_blank">परीक्षा सूचना</a></li>'+
+      ' <li><a href="https://ssc.nic.in/Portal/Results" target="_blank">परिणाम ssc.nic.in</a></li>'+
+      ' <li><a href="../Site/Resultsscnr.html">परिणाम क.च. अ. (उ. क्षे.)</a></li>'+
+    '  <li><a href="../Site/filluptheform.html">आवेदन फॉर्म कैसे भरें</a></li>'+
+  
+  ' <li><a href="../Site/NominationStatus.html">नामांकन स्थिति</a></li>'+
+			   ' <li><a href="../Site/RejectionList.html">चयनित पदों की अस्वीकृत सूची</a></li>'+
+'     <li><a href="../Site/TenderNotice.html">निविदा सूचना</a></li>'+
+' <li><a href="../Site/CommonScreeningTest.html">कॉमन स्क्रीनिंग टेस्ट</a></li>'+
+' <li><a href="../Site/OtherRNetwork.html">अन्य क्षेत्रीय नेटवर्क</a></li>' +
+'<li class="mtop"><a href="../Site/RelatedWebsites.html">उपयोगी लिंक</a></li>' +
+' <li><a href="../Downloads/dbar_list_new_30713.pdf" target="_blank">प्रतिबंधित सूची</a></li>'+
+'    <li><a href="https://rtionline.gov.in/request/request.php" target="_blank">ऑनलाइन आरटीआई दाखिल</a></li>'+
+'  </ul>'+
+//'<div class="gove-logo">'+
+//'<img src="../images/gove-logo.png" style="max-width:100%;height:auto;" alt="gove-logo"/>'+
+//'<br /><br />'+
+//'<img src="../images/swatch_bharat.png" style="max-width:100%;height:auto;" alt="swatch_bharat"/>'+
+//'</div>'+
+'</div>')
